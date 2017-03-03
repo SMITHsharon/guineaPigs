@@ -2,7 +2,12 @@
 var outputToDOM = document.getElementById("output-target");
 var userTextInput = document.getElementById("keypress-input");
 var pageTitleH1Tag = document.getElementById("page-title");
-// var guineaPigDiv = document.getElementById("guinea-pig");
+var guineaPigDiv = document.getElementById("guinea-pig");
+var chgToBlue = document.getElementById("add-color");
+var chgToHulk = document.getElementById("make-large");
+var chgToBorder = document.getElementById("add-border");
+var chgToRounded = document.getElementById("add-rounding");
+
 
 document.addEventListener("click", function(e) {
 	// console.log(e);
@@ -21,6 +26,23 @@ userTextInput.addEventListener("keyup", function(e) {
 	outputToDOM.innerHTML = e.target.value;
 })
 
-// guineaPigDiv.addEventListener("click", function(e) {
+chgToBlue.addEventListener("click", function(e) {
+	guineaPigDiv.classList.add("chgToBlue");
+})
 
-// })
+chgToHulk.addEventListener("click", function(e) {
+	guineaPigDiv.classList.add("chgToHulk");
+})
+
+chgToBorder.addEventListener("click", function(e) {
+	guineaPigDiv.classList.add("chgToBorder");
+})
+
+chgToRounded.addEventListener("click", function(e) {
+	guineaPigDiv.classList.add("chgToRounded");
+})
+
+
+
+
+

@@ -1,0 +1,47 @@
+
+body {
+	background-color: #F7F2F0;
+}
+
+
+/******************************************/
+/* button styling for block display
+/******************************************/
+button {
+	display: block;
+}
+
+
+/******************************************/
+/* button stylings for click events
+/******************************************/
+.chgToBlue {
+	color: blue;
+}
+
+.chgToHulk {
+	font-size: 10em;
+}
+
+.chgToBorder {
+	border: 2px solid slategrey;
+}
+
+.chgToRounded {
+	border-radius: 25px;
+}
+
+
+/******************************************/
+/* <section> styling
+/******************************************/
+section:first-child {
+	font-weight: 900;
+}
+
+section:last-child {
+	font-weight: 900;
+	font-style: italic;
+}
+
+

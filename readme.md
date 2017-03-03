@@ -23,16 +23,20 @@ The output element displays "You left me!!"
 4. When characters are typed into the input field: 
 The output element mirrors the text in the input field
 
-###### CSS Functionality
+###### Javascript <=> CSS Functionality
 5. When the `Add Color` button is clicked: 
 The guinea-pig element's text color changes to blue
+6. When the `Hulkify` button is clicked: 
+The guinea-pig element's font size becomes much larger
+7. When the `Capture It` button is clicked: 
+The guinea-pig element gets bordered
+8. When the `Rounded` button is clicked: 
+The guinea-pig element's border becomes rounded
 
-6. When you click the "Hulkify" button, the guinea-pig element's font size should become much larger.
-7. When you click the "Capture it" button, the guinea-pig element should have a border added to it.
-8. When you click the "Rounded" button, the guinea-pig element's border should become rounded.
-9. The first section's text should be bold.
-10. The last section's text should be bold and italicized.
-11. Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
+###### CSS Styling
+9. The first section's text (in the `article` set of `sections`) is bold
+10. The last section's text is bold and italicized.
+11. Style the buttons to appear as block elements
 
 ###### Boilerplate DOM
 ```
