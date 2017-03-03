@@ -3,17 +3,17 @@
 ### Project Description 
 This assignment codes `javascript` event handlers for mouse and keyboard events tied to boilerplate code provided for the `index.html` file. 
 
-#### Buinea Pigs Before Screen + Mouse Event (mouse over `h1` element)
-![Guinea Pigs Before Screen Grab](https://raw.....png)
+#### Guinea Pigs Before Screen + Mouse Event (mouse over `h1` element)
+![Guinea Pigs Before Screen Grab](https://raw.githubusercontent.com/SMITHsharon/guineaPigs/master/screen/Guinea%20Pigs%201%20Before%20%2B%20mouse%20event.png)
 
 
-+ Mouse Event (mouse over `h1` element)
-![Guinea Pigs After Screen Grab](https://raw.....png)
+#### Guinea Pigs After Screen
+![Guinea Pigs After Screen Grab](https://raw.githubusercontent.com/SMITHsharon/guineaPigs/master/screen/Guinea%20Pigs%202%20After.png)
 
 
 ### Project Specs
 ###### Set-Up
-1. Boilerplate code was provide for the index.html file
+1. Boilerplate code was provide for the `index.html` file
 2. Linked in JavaScript file: `events.js`
 3. Linked in CSS file: `events.css` 
 4. `element.classList` is used to manipulate the CSS classes on elements
@@ -93,8 +93,6 @@ http-server -p 8080
 
 This will show in your browser at: `http://localhost:8080`
 
-### Contributor
-[Sharon Smith](https://github.com/SMITHsharon) `http://localhost:8080`
 
 ### Contributor
 [Sharon Smith](https://github.com/SMITHsharon)
