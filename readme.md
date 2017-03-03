@@ -6,15 +6,27 @@ This assignment xxx
 <!-- ![Guinea Pigs Screen Grab](https://raw.....png) -->
 
 ### Project Specs
-1. There is sample HTML file content below so create an `index.html` for it and place the content in the body tag.
-2. Link in a JavaScript file named `events.js`.
-3. Link in a CSS file named `events.css`. You'll be using `element.classList` to manipulate the CSS classes on elements.
-<strong>Note:</strong> Output target is the `output-target` element.
-1. When any section is clicked the output target text should be "You clicked on the {text of the section} section"
-2. When the mouse is over the h1 tag, the output element should contain the text "You moved your mouse over the header".
-3. When the mouse leaves the h1 tag, the output element should contain the text "You left me!!".
-4. When you type characters into the input field, the output element should mirror the text in the input field.
-5. When you click the "Add color" button, the guinea-pig element's text color should change to blue.
+###### Set-Up
+1. Boilerplate code was provide for the index.html file
+2. Linked in JavaScript file: `events.js`
+3. Linked in CSS file: `events.css` 
+4. `element.classList` is used to manipulate the CSS classes on elements
+5. `output-target` is the output target element
+
+###### Javascript Functionality
+1. When any section is clicked: 
+The output target text displays "You clicked on the {text of the section} section"
+2. When the mouse is over the `h1` tag: 
+The output element displays "You moved your mouse over the header"
+3. When the mouse leaves the `h1` tag: 
+The output element displays "You left me!!"
+4. When characters are typed into the input field: 
+The output element mirrors the text in the input field
+
+###### CSS Functionality
+5. When the `Add Color` button is clicked: 
+The guinea-pig element's text color changes to blue
+
 6. When you click the "Hulkify" button, the guinea-pig element's font size should become much larger.
 7. When you click the "Capture it" button, the guinea-pig element should have a border added to it.
 8. When you click the "Rounded" button, the guinea-pig element's border should become rounded.
