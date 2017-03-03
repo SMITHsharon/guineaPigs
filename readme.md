@@ -1,26 +1,48 @@
 # NSS Guinea Pigs Exercise
 
 ### Project Description 
-This assignment xxx
-#### User Input Screen
-<!-- ![Guinea Pigs Screen Grab](https://raw.....png) -->
+This assignment codes `javascript` event handlers for mouse and keyboard events tied to boilerplate code provided for the `index.html` file. 
+
+#### Buinea Pigs Before Screen + Mouse Event (mouse over `h1` element)
+![Guinea Pigs Before Screen Grab](https://raw.....png)
+
+
++ Mouse Event (mouse over `h1` element)
+![Guinea Pigs After Screen Grab](https://raw.....png)
+
 
 ### Project Specs
-1. There is sample HTML file content below so create an `index.html` for it and place the content in the body tag.
-2. Link in a JavaScript file named `events.js`.
-3. Link in a CSS file named `events.css`. You'll be using `element.classList` to manipulate the CSS classes on elements.
-<strong>Note:</strong> Output target is the `output-target` element.
-1. When any section is clicked the output target text should be "You clicked on the {text of the section} section"
-2. When the mouse is over the h1 tag, the output element should contain the text "You moved your mouse over the header".
-3. When the mouse leaves the h1 tag, the output element should contain the text "You left me!!".
-4. When you type characters into the input field, the output element should mirror the text in the input field.
-5. When you click the "Add color" button, the guinea-pig element's text color should change to blue.
-6. When you click the "Hulkify" button, the guinea-pig element's font size should become much larger.
-7. When you click the "Capture it" button, the guinea-pig element should have a border added to it.
-8. When you click the "Rounded" button, the guinea-pig element's border should become rounded.
-9. The first section's text should be bold.
-10. The last section's text should be bold and italicized.
-11. Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
+###### Set-Up
+1. Boilerplate code was provide for the index.html file
+2. Linked in JavaScript file: `events.js`
+3. Linked in CSS file: `events.css` 
+4. `element.classList` is used to manipulate the CSS classes on elements
+5. `output-target` is the output target element
+
+###### Javascript Functionality
+1. When any section is clicked: 
+The output target text displays "You clicked on the {text of the section} section"
+2. When the mouse is over the `h1` tag: 
+The output element displays "You moved your mouse over the header"
+3. When the mouse leaves the `h1` tag: 
+The output element displays "You left me!!"
+4. When characters are typed into the input field: 
+The output element mirrors the text in the input field
+
+###### Javascript <=> CSS Functionality
+5. When the `Add Color` button is clicked: 
+The guinea-pig element's text color changes to blue
+6. When the `Hulkify` button is clicked: 
+The guinea-pig element's font size becomes much larger
+7. When the `Capture It` button is clicked: 
+The guinea-pig element gets bordered
+8. When the `Rounded` button is clicked: 
+The guinea-pig element's border becomes rounded
+
+###### CSS Styling
+9. The first section's text (in the `article` set of `sections`) is bold
+10. The last section's text is bold and italicized.
+11. Style the buttons to appear as block elements
 
 ###### Boilerplate DOM
 ```
@@ -63,13 +85,16 @@ This assignment xxx
 ### How To View The Screen 
 #### (Node must be installed on your machine):
 ```
-git clone ...
+git clone https://github.com/SMITHsharon/guineaPigs.git
 cd cards
 npm install http-server -g
 http-server -p 8080
 ```
 
 This will show in your browser at: `http://localhost:8080`
+
+### Contributor
+[Sharon Smith](https://github.com/SMITHsharon) `http://localhost:8080`
 
 ### Contributor
 [Sharon Smith](https://github.com/SMITHsharon)
