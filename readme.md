@@ -13,6 +13,7 @@ This assignment codes `javascript` event handlers for mouse and keyboard events 
 
 ### Project Specs
 ###### Set-Up
+
 1. Boilerplate code was provide for the `index.html` file
 2. Linked in JavaScript file: `events.js`
 3. Linked in CSS file: `events.css` 
