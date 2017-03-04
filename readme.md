@@ -1,13 +1,20 @@
 # NSS Guinea Pigs Exercise
 
 ### Project Description 
-This assignment xxx
-#### User Input Screen
-<!-- ![Guinea Pigs Screen Grab](https://raw.....png) -->
+This assignment codes `javascript` event handlers for mouse and keyboard events tied to boilerplate code provided for the `index.html` file. 
+
+#### Guinea Pigs Before Screen + Mouse Event (mouse over `h1` element)
+![Guinea Pigs Before Screen Grab](https://raw.githubusercontent.com/SMITHsharon/guineaPigs/master/screen/Guinea%20Pigs%201%20Before%20%2B%20mouse%20event.png)
+
+
+#### Guinea Pigs After Screen
+![Guinea Pigs After Screen Grab](https://raw.githubusercontent.com/SMITHsharon/guineaPigs/master/screen/Guinea%20Pigs%202%20After.png)
+
 
 ### Project Specs
 ###### Set-Up
-1. Boilerplate code was provide for the index.html file
+
+1. Boilerplate code was provide for the `index.html` file
 2. Linked in JavaScript file: `events.js`
 3. Linked in CSS file: `events.css` 
 4. `element.classList` is used to manipulate the CSS classes on elements
@@ -79,13 +86,14 @@ The guinea-pig element's border becomes rounded
 ### How To View The Screen 
 #### (Node must be installed on your machine):
 ```
-git clone ...
+git clone https://github.com/SMITHsharon/guineaPigs.git
 cd cards
 npm install http-server -g
 http-server -p 8080
 ```
 
 This will show in your browser at: `http://localhost:8080`
+
 
 ### Contributor
 [Sharon Smith](https://github.com/SMITHsharon)
