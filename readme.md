@@ -12,15 +12,15 @@ This assignment codes `javascript` event handlers for mouse and keyboard events 
 
 
 ### Project Specs
-###### Set-Up
+#### Set-Up
 
 1. Boilerplate code was provide for the `index.html` file
-2. Linked in JavaScript file: `events.js`
-3. Linked in CSS file: `events.css` 
-4. `element.classList` is used to manipulate the CSS classes on elements
+2. Linked in `JavaScript` file: `events.js`
+3. Linked in `css` file: `events.css` 
+4. `element.classList` is used to manipulate the `css` classes on elements
 5. `output-target` is the output target element
 
-###### Javascript Functionality
+#### `JavaScript` Functionality
 1. When any section is clicked: 
 The output target text displays "You clicked on the {text of the section} section"
 2. When the mouse is over the `h1` tag: 
@@ -30,7 +30,7 @@ The output element displays "You left me!!"
 4. When characters are typed into the input field: 
 The output element mirrors the text in the input field
 
-###### Javascript <=> CSS Functionality
+#### `JavaScript` <=> `css` Functionality
 5. When the `Add Color` button is clicked: 
 The guinea-pig element's text color changes to blue
 6. When the `Hulkify` button is clicked: 
@@ -40,54 +40,54 @@ The guinea-pig element gets bordered
 8. When the `Rounded` button is clicked: 
 The guinea-pig element's border becomes rounded
 
-###### CSS Styling
+###### `css` Styling
 9. The first section's text (in the `article` set of `sections`) is bold
 10. The last section's text is bold and italicized.
 11. Style the buttons to appear as block elements
 
 ###### Boilerplate DOM
-```
-<header id="page-header">
-    <h1 id="page-title">Page title</h1>
-  </header>
+  ```
+  <header id="page-header">
+      <h1 id="page-title">Page title</h1>
+    </header>
 
-  <ul>
-    <li>Unordered list item 1</li>
-    <li>Unordered list item 2</li>
-    <li>Unordered list item 3</li>
-  </ul>
+    <ul>
+      <li>Unordered list item 1</li>
+      <li>Unordered list item 2</li>
+      <li>Unordered list item 3</li>
+    </ul>
 
-  <article>
-    <section class="article-section">Introduction</section>
-    <section class="article-section">Body</section>
-    <section class="article-section">Section 1</section>
-    <section class="article-section">Section 2</section>
-    <section class="article-section">Section 3</section>
-    <section class="article-section">Conclusion</section>
-  </article>
+    <article>
+      <section class="article-section">Introduction</section>
+      <section class="article-section">Body</section>
+      <section class="article-section">Section 1</section>
+      <section class="article-section">Section 2</section>
+      <section class="article-section">Section 3</section>
+      <section class="article-section">Conclusion</section>
+    </article>
 
-  <input type="text" id="keypress-input">
+    <input type="text" id="keypress-input">
 
-  <div id="output-target"></div>
+    <div id="output-target"></div>
 
-  <div id="guinea-pig">Leave me alone</div>
-  <button id="add-color">Add color</button>
-  <button id="make-large">Hulkify</button>
-  <button id="add-border">Capture it</button>
-  <button id="add-rounding">Rounded</button>
-```
+    <div id="guinea-pig">Leave me alone</div>
+    <button id="add-color">Add color</button>
+    <button id="make-large">Hulkify</button>
+    <button id="add-border">Capture it</button>
+    <button id="add-rounding">Rounded</button>
+  ```
 
 ### Technologies Used
-- html
-- css
-- javascript
+- `html`
+- `css`
+- `JavaScript`
 
 
 ### How To View The Screen 
 #### (Node must be installed on your machine):
 ```
 git clone https://github.com/SMITHsharon/guineaPigs.git
-cd cards
+cd guineaPigs
 npm install http-server -g
 http-server -p 8080
 ```
