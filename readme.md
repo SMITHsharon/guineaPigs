@@ -1,7 +1,7 @@
 # NSS Guinea Pigs Exercise
 
 ### Project Description 
-This assignment codes `javascript` event handlers for mouse and keyboard events tied to boilerplate code provided for the `index.html` file. 
+This assignment codes `JavaScript` event handlers for mouse and keyboard events tied to boilerplate code provided for the `index.html` file. 
 
 #### Guinea Pigs Before Screen + Mouse Event (mouse over `h1` element)
 ![Guinea Pigs Before Screen Grab](https://raw.githubusercontent.com/SMITHsharon/guineaPigs/master/screen/Guinea%20Pigs%201%20Before%20%2B%20mouse%20event.png)
@@ -14,9 +14,9 @@ This assignment codes `javascript` event handlers for mouse and keyboard events 
 ### Project Specs
 #### Set-Up
 
-1. Boilerplate code was provide for the `index.html` file
-2. Linked in `JavaScript` file: `events.js`
-3. Linked in `css` file: `events.css` 
+1. Boilerplate code was provided for the `index.html` file
+2. Links in `JavaScript` file: `events.js`
+3. Links in `css` file: `events.css` 
 4. `element.classList` is used to manipulate the `css` classes on elements
 5. `output-target` is the output target element
 
