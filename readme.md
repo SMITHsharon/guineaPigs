@@ -22,28 +22,28 @@ This assignment codes `JavaScript` event handlers for mouse and keyboard events 
 
 #### `JavaScript` Functionality
 1. When any section is clicked: 
-The output target text displays "You clicked on the {text of the section} section"
+  - The output target text displays "You clicked on the {text of the section} section"
 2. When the mouse is over the `h1` tag: 
-The output element displays "You moved your mouse over the header"
+  - The output element displays "You moved your mouse over the header"
 3. When the mouse leaves the `h1` tag: 
-The output element displays "You left me!!"
+  - The output element displays "You left me!!"
 4. When characters are typed into the input field: 
-The output element mirrors the text in the input field
+  - The output element mirrors the text in the input field
 
 #### `JavaScript` <=> `css` Functionality
 5. When the `Add Color` button is clicked: 
-The guinea-pig element's text color changes to blue
+  - The guinea-pig element's text color changes to blue
 6. When the `Hulkify` button is clicked: 
-The guinea-pig element's font size becomes much larger
+  - The guinea-pig element's font size becomes much larger
 7. When the `Capture It` button is clicked: 
-The guinea-pig element gets bordered
+  - The guinea-pig element gets bordered
 8. When the `Rounded` button is clicked: 
-The guinea-pig element's border becomes rounded
+  - The guinea-pig element's border becomes rounded
 
 ###### `css` Styling
 9. The first section's text (in the `article` set of `sections`) is bold
 10. The last section's text is bold and italicized.
-11. Style the buttons to appear as block elements
+11. The buttons are styled to appear as block elements
 
 ###### Boilerplate DOM
   ```
@@ -88,11 +88,9 @@ The guinea-pig element's border becomes rounded
 ```
 git clone https://github.com/SMITHsharon/guineaPigs.git
 cd guineaPigs
-npm install http-server -g
 http-server -p 8080
+This will show in your browser at: http://localhost:8080
 ```
-
-This will show in your browser at: `http://localhost:8080`
 
 
 ### Contributor
